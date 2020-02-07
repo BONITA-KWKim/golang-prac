@@ -44,9 +44,7 @@ Temporary Items
 
 # no included directories
 bin/
-build/
 spike/
-third-party/
 
 ## vagrant
 .vagrant/

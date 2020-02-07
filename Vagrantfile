@@ -4,5 +4,5 @@ Vagrant.configure("2") do |config|
   config.vm.provision :shell, path: "boot-strap.sh"
 
   config.vm.synced_folder ".", "/vagrant", type: "rsync",
-    rsync__exclude: [".git/," "spike/", "third-party/", "build/"]
+    rsync__exclude: [".git/," "spike/", "bin/"]
 end
